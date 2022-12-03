@@ -25,7 +25,7 @@ public class Part2 {
                 }
             }
         }
-        System.out.println("total matches found:"+total);
+        System.out.println("total matches found: "+total);
         return points + "";
     }
 }

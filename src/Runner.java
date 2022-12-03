@@ -1,5 +1,5 @@
 import Helper_Classes.ReadInput;
-import Year_2015.Day1.*; //Change this to change which file is run
+import Year_2015.Day2.*; //Change this to change which file is run
 
 import java.io.IOException;
 

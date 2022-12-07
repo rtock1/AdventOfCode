@@ -1,0 +1,12 @@
+$ cd /
+$ ls
+dir a
+$ cd a
+$ ls
+dir b
+$ cd b
+$ ls
+dir c
+$ cd c
+$ ls
+1 p

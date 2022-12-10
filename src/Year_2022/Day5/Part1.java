@@ -1,6 +1,8 @@
 package Year_2022.Day5;
-import java.util.*;
-import Helper_Classes.*;
+
+import Helper_Classes.Array;
+
+import java.util.ArrayList;
 
 public class Part1 {
     public String start(String input) {
@@ -9,7 +11,7 @@ public class Part1 {
         String[] tempInstructions = sections[1].split("\\n");
         int[][] instructions = new int[tempInstructions.length][3];
         for (int i=0;i<instructions.length;i++) {
-            instructions[i] = ArrayConvert.strToInt(tempInstructions[i].replaceAll("move (\\d+) from (\\d) to (\\d)", "$1|$2|$3").split("\\|"));
+            instructions[i] = Array.strToInt(tempInstructions[i].replaceAll("move (\\d+) from (\\d) to (\\d)", "$1|$2|$3").split("\\|"));
             //System.out.println(Arrays.toString(instructions[i]));
         }
         ArrayList<String>[] stacks = new ArrayList[stackRows[stackRows.length-2].split("\\s").length];

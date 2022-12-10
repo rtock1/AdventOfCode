@@ -1,8 +1,5 @@
 package Year_2022.Day6;
 
-import Helper_Classes.*;
-import java.util.*;
-
 public class Part1 {
     public String start(String input) {
         String[] chars = input.split("");

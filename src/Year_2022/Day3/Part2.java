@@ -1,8 +1,4 @@
 package Year_2022.Day3;
-import Helper_Classes.*;
-
-import java.util.Arrays;
-import java.util.Locale;
 
 public class Part2 {
     String[] parsedInput;

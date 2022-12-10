@@ -1,6 +1,5 @@
 package Year_2022.Day9;
-import Helper_Classes.*;
-import java.util.*;
+import java.util.ArrayList;
 
 public class Part1 {
     ArrayList<ArrayList<Integer>> tailPositions;

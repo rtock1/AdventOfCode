@@ -1,7 +1,6 @@
 package Year_2022.Day8;
-import java.util.*;
-import Helper_Classes.*;
-
+import Helper_Classes.Array;
+import java.util.Arrays;
 public class Part2 {
     int[][] trees;
     public String start(String input) {

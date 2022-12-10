@@ -1,6 +1,9 @@
 package Year_2022.Day7;
-import Helper_Classes.*;
-import java.util.*;
+
+import Helper_Classes.Array;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Part1 {
     HashMap<String, Long> sizes = new HashMap<>();

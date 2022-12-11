@@ -13,12 +13,18 @@ public class Array {
     }
     public static String[] intToStr(int[] input) {
         String[] output = new String[input.length];
-        for (int i=0;i<input.length;i++) {
+        for (int i = 0; i < input.length; i++) {
             output[i] = input[i] + "";
         }
         return output;
     }
-
+    public static long[] strToLong(String[] input) {
+        long[] output = new long[input.length];
+        for (int i = 0; i < input.length; i++) {
+            output[i] = Long.parseLong(input[i]);
+        }
+        return output;
+    }
     public static int[] slice(int[] list, int begin, int end) {
         int[] output = new int[end-begin];
         for (int i=begin;i<end;i++) {

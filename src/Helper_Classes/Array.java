@@ -49,4 +49,15 @@ public class Array {
         }
         return output;
     }
+    public static String toString(int[][] input) {
+        String output = "[";
+        for (int i=0;i<input.length;i++) {
+            output += Arrays.toString(input[i]);
+            if (i != input.length-1) {
+                output += ",\n";
+            }
+        }
+        output += "]";
+        return output;
+    }
 }

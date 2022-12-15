@@ -26,6 +26,6 @@ public class Position {
 
     @Override
     public int hashCode() {
-        return (int) Math.pow(x,y);
+        return (x + " " + y).hashCode();
     }
 }

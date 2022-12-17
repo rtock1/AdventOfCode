@@ -25,6 +25,13 @@ public class Array {
         }
         return output;
     }
+    public static char[] strToChar(String[] input) {
+        char[] output = new char[input.length];
+        for (int i = 0; i < input.length; i++) {
+            output[i] = input[i].charAt(0);
+        }
+        return output;
+    }
     public static int[] slice(int[] list, int begin, int end) {
         int[] output = new int[end-begin];
         for (int i=begin;i<end;i++) {
